@@ -22,8 +22,8 @@ def load_data():
     repo_path = os.getcwd()  # Gets the current working directory
     
     # Construct the full file paths
-    exists_file = os.path.join(repo_path, 'exists_climate.csv')
-    dne_file = os.path.join(repo_path, 'DNE_climate.csv')
+    exists_file = os.path.join(repo_path, 'data/h1_data/exists_climate.csv')
+    dne_file = os.path.join(repo_path, 'data/h1_data/DNE_climate.csv')
     
     # Check if both files exist
     if not os.path.exists(exists_file) or not os.path.exists(dne_file):
